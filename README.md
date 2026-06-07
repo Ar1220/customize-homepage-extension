@@ -69,7 +69,7 @@ The repository contains an automated orchestration pipeline located at `browser_
 When executed, the script automatically handles the following development pipeline operations:
 1. Audits local system dependency and runtime prerequisites.
 2. Executes clean package resolution and production compilation:
-```bash
+```bat
    pnpm install
    pnpm build
 ```
