@@ -20,12 +20,19 @@ A premium, client-rendered homepage engine featuring offline machine learning wo
 <br/>
 <br/>
 
-## 1. Overview & Philosophy
+```text
+  _       ___                                      ___     ____  _     _ _                             _ 
+ / |     / _ \__   _____ _ ____   _   _  _____ ___( _ )   |  _ \| |__ (_) | ___  ___  ___  _ __ | |__ _   _ 
+ | |    | | | \ \ / / _ \ '__\ \ / / | | |/ _ \_  // _ \   | |_) | '_ \| | |/ _ \/ __|/ _ \| '_ \| '_ \ | | |
+ | |    | |_| |\ V /  __/ |   \ V /  | |_| |  __// /| (_) |  |  __/| | | | | | (_) \__ \ (_) | |_) | | | | |_| |
+ |_|     \___/  \_/ \___|_|    \_/    \__,_|\___/___/\___/   |_|   |_| |_|_|_|\___/|___/\___/| .__/|_| |_|\__, |
+                                                                                             |_|          |___/ 
+```
 
 Ethereal Dashboard is an ultra-premium, high-performance, privacy-first browser homepage engine designed to execute entirely at the client browser layer. The core system architecture operates under three strict operational zero-trust principles:
 
 > ### 🛑 The Zero-Trust Operational Framework
-> * **0 External Server Connections:** All computing overhead and asset assets are sandboxed entirely within the local runtime context.
+> * **0 External Server Connections:** All computing overhead and asset allocations are sandboxed entirely within the local runtime context.
 > * **0 Telemetry / Data Tracking:** Guarantees absolute user privacy with no underlying metrics phone-home code or analytical interception hooks.
 > * **0 External API Key Dependencies:** Eliminates operational reliance on paid, rate-limited, or volatile third-party cloud engines.
 
@@ -36,7 +43,14 @@ Everything executes locally using client compute power, enabling fully determini
 <br/>
 <br/>
 
-## 2. Technical Capabilities & Core Features
+```text
+  ____       _____              _                _                _     _____              _                       
+ |___ \     |_   _|__  ___ | |_| |__  _ __  _ (_) ___ __ _ | |   |  ___|___  __ _ | |_ _   _ _ __ ___  ___ 
+   __) |      | |/ _ \/ __|| __| '_ \| '_ \| | | |/ __/ _` || |   | |_    / / _` || __| | | | '__/ _ \/ __|
+  / __/_      | |  __/ (__ | |_| | | | | | | | | | (_| (_| || |   |  _|  / / (_| || |_| |_| | | |  __/\__ \
+ |_____(_)    |_|\___|\___| \__|_| |_|_| |_|_|_|_|\___\__,_||_|   |_|   /_/ \__,_| \__|\__,_|_|  \___||___/
+                                                                                                           
+```
 
 ### 💻 Spatial Layout & Canvas Engine
 * **Premium Glassmorphic UI:** Features fluid, draggable widget orchestration for advanced spatial desktop personalization.
@@ -68,7 +82,14 @@ Everything executes locally using client compute power, enabling fully determini
 <br/>
 <br/>
 
-## 3. Performance Telemetry Benchmarks
+```text
+  _____       ____            _                                              _     
+ |___ /      | __ )  ___ _ __   ___| |__  _ __ ___   __ _ _ __| |__ ___ 
+   |_ \      |  _ \ / _ \ '_ \ / __| '_ \| '_ ` _ \ / _` | '__| |/ / __|
+  ___) |     | |_) |  __/ | | | (__| | | | | | | | | (_| | |  |   <\__ \
+ |____(_)    |____/ \___|_| |_|\___|_| |_| |_| |_|\__,_|_|  |_|\_\___/
+                                                                           
+```
 
 <table width="100%">
   <thead>
@@ -107,7 +128,14 @@ Everything executes locally using client compute power, enabling fully determini
 <br/>
 <br/>
 
-## 4. Architecture & Data Persistence Details
+```text
+  _  _       _                _ _              _                  
+ | || |     / \   _ __ ___| |__ (_) |_ ___  ___| |_ _   _ _ __ ___ 
+ | || |_   / _ \ | '__/ __| '_ \| | __/ _ \/ __| __| | | | '__/ _ \
+ |__   _| / ___ \| | | (__| | | | | ||  __/ (__| |_| |_| | | |  __/
+    |_|(_)/_/   \_\_|  \___|_| |_|_|\__\___|\___|\__|\__,_|_|  \___|
+                                                                    
+```
 
 * **Component Topology:** A clean, top-down state orchestrator manages the component tree with highly controlled re-render boundaries and clean, deterministic data flows.
 * **Storage Bridge Protocol:** An asynchronous abstraction layer performs automated handshakes with `chrome.storage.local` in production environments, falling back seamlessly to immediate browser `localStorage` during local development workflows.
@@ -117,7 +145,14 @@ Everything executes locally using client compute power, enabling fully determini
 <br/>
 <br/>
 
-## 5. Deployment & Installation Guide
+```text
+  ____        ___           _all_     _   _             
+ | ___|      |_ _| _ __  ___| |_  __ _| | | |  __ _  ___  _ __  
+ |___ \       | | | '_ \/ __| __|/ _` | | | | / _` |/ __|| '_ \ 
+  ___) |      | | | | | \__ \ |_| (_| | | | |  (_| | (__ | |_) |
+ |____(_)    |___||_| |_|___/\__|\__,_|_|_|_|  \__,_|\___|| .__/ 
+                                                          |_|    
+```
 
 ### 📂 Initial Project Download
 Before proceeding to browser installation, pull the portable project files onto your local machine:
@@ -141,3 +176,56 @@ The repository contains an automated orchestration pipeline designed to handle s
    ```bash
    pnpm install
    pnpm build
+   ```
+5. On successful completion, the script will natively inject and launch the compiled unpacked extension target directly into your chosen Chromium profile layout.
+
+#### ⚙️ Manual Developer Mode Fallback
+If you prefer to load the compiled assets manually into a Chromium framework:
+1. Open your browser and navigate to `chrome://extensions/` in your URL bar.
+2. Enable the **Developer mode** toggle switch in the top-right corner.
+3. Click the **Load unpacked** button located in the top-left corner.
+4. Open your extracted workspace folder, navigate to `browser_exten/Ui/`, and select the newly generated **`dist`** directory.
+
+---
+
+<br/>
+
+```text
+  _____ _           __               ___           _all_     _   _             
+ |  ___(_)_ __ ___ / _| _____  __   |_ _| _ __  ___| |_  __ _| | | |  __ _  ___  _ __  
+ | |_  | | '__/ _ \ |_ / _ \ \/ /    | | | '_ \/ __| __|/ _` | | | | / _` |/ __|| '_ \ 
+ |  _| | | | |  __/  _| (_) >  <     | | | | | \__ \ |_| (_| | | | |  (_| | (__ | |_) |
+ |_|   |_|_|  \___|_|  \___/_/\_\   |___||_| |_|___/\__|\__,_|_|_|_|  \__,_|\___|| .__/ 
+                                                                               |_|    
+```
+
+> ⚠️ **Implementation Warning:** Automated command-line injection tools trigger external developer debugging hooks within Gecko architectures, forcing a permanent and visually disruptive *"Browser is under remote control"* warning banner across your top viewport.
+
+For a completely clean, pristine, and warning-free installation inside Firefox, execute these manual activation steps:
+
+1. Open **Mozilla Firefox** normally from your desktop deployment or taskbar shortcut.
+2. In the URL address bar at the top, type exactly <kbd>about:debugging</kbd> and press <kbd>Enter</kbd>.
+3. On the left-hand vertical menu pane, click on **This Firefox**.
+4. Locate the **Temporary Extensions** section block and click the **Load Temporary Add-on...** button.
+5. An OS native file explorer window will pop up. Navigate directly into your compiled production folder within your extracted zip repository path:
+   ```text
+   \browser_exten\Ui\dist\
+   ```
+6. Inside the `Ui/dist/` directory, locate and select the **`manifest.json`** file.
+7. Open a brand new browser tab (<kbd>Ctrl</kbd> + <kbd>T</kbd>) to immediately experience your premium, edge-to-edge dashboard layout running free of developer debugging bars.
+
+---
+
+<br/>
+<br/>
+
+```text
+   __          _     _                                 
+  / /_        | |   (_) ___ ___ _ __  ___  ___   _     
+ | '_ \       | |   | |/ __/ _ \ '_ \/ __|/ _ \ (_)    
+ | (_) | _    | |___| | (_|  __/ | | \__ \  __/  _     
+  \___/(_)    |_____|_|\___\___|_| |_|___/\___| (_)    
+                                                       
+```
+
+This project is licensed under the **MIT License** — an open-source, highly permissive framework that is completely free to use, modify, and distribute for personal or commercial projects.
