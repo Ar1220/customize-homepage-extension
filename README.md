@@ -180,6 +180,8 @@ Everything executes locally using client compute power, enabling fully determini
 
 <br/>
 
+📸 Screenshots there
+
 # 6. License
 
 This project is licensed under the **MIT License** — an open-source, highly permissive framework that is completely free to use, modify, and distribute for personal or commercial projects.
