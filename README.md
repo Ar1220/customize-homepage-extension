@@ -116,66 +116,69 @@ Everything executes locally using client compute power, enabling fully determini
 
 # 5. Deployment & Installation Guide
 
-### 📂 Initial Project Download
-Before proceeding to browser installation, pull the portable project files onto your local machine:
+<br/>
 
-1. Click the green **Code** button at the top right of this repository page.
-2. Select **Download ZIP** from the dropdown menu.
-3. Extract the downloaded `.zip` file archive completely to your preferred local storage directory.
+> ## 📂 Initial Project Download
+> Before proceeding to browser installation, pull the portable project files onto your local machine:
+> 
+> 1. Click the green **Code** button at the top right of this repository page.
+> 2. Select **Download ZIP** from the dropdown menu.
+> 3. Extract the downloaded `.zip` file archive completely to your preferred local storage directory.
 
 ---
 
 <br/>
 
-## 🛠️ Automated Setup (Chromium Browsers: Chrome, Brave, Edge, Opera)
+> ## 🛠️ Automated Setup (Chromium Browsers: Chrome, Brave, Edge, Opera)
+> The repository contains an automated orchestration pipeline designed to handle system environment setup, dependency resolution, and asset bundling automatically.
+> 
+> 1. Open your extracted project directory and navigate into the root **`browser_exten`** folder.
+> 2. Locate the file named **`install_and_launch.bat`**.
+> 3. **Right-click** on the script file and select **"Run as Administrator"**.
+> 4. The script will automatically verify dependencies, parse project files, and execute a production compile using the following routines:
+>    ```bash
+>    pnpm install
+>    pnpm build
+>    ```
+> 5. On successful completion, the script will natively inject and launch the compiled unpacked extension target directly into your chosen Chromium profile layout.
 
-The repository contains an automated orchestration pipeline designed to handle system environment setup, dependency resolution, and asset bundling automatically.
+---
 
-1. Open your extracted project directory and navigate into the root **`browser_exten`** folder.
-2. Locate the file named **`install_and_launch.bat`**.
-3. **Right-click** on the script file and select **"Run as Administrator"**.
-4. The script will automatically verify dependencies, parse project files, and execute a production compile using the following routines:
-   ```bash
-   pnpm install
-   pnpm build
+<br/>
 
-    On successful completion, the script will natively inject and launch the compiled unpacked extension target directly into your chosen Chromium profile layout.
+> ## ⚙️ Manual Developer Mode Fallback
+> If you prefer to load the compiled assets manually into a Chromium framework:
+> 
+> 1. Open your browser and navigate to `chrome://extensions/` in your URL bar.
+> 2. Enable the **Developer mode** toggle switch in the top-right corner.
+> 3. Click the **Load unpacked** button located in the top-left corner.
+> 4. Open your extracted workspace folder, navigate to `browser_exten/Ui/`, and select the newly generated **`dist`** directory.
 
-⚙️ Manual Developer Mode Fallback
+---
 
-If you prefer to load the compiled assets manually into a Chromium framework:
+<br/>
 
-    Open your browser and navigate to chrome://extensions/ in your URL bar.
+> ## 🦊 Step-by-Step Firefox Installation
+> 
+> ⚠️ **Implementation Warning:** Automated command-line injection tools trigger external developer debugging hooks within Gecko architectures, forcing a permanent and visually disruptive *"Browser is under remote control"* warning banner across your top viewport.
+> 
+> For a completely clean, pristine, and warning-free installation inside Firefox, execute these manual activation steps:
+> 
+> 1. Open **Mozilla Firefox** normally from your desktop deployment or taskbar shortcut.
+> 2. In the URL address bar at the top, type exactly <kbd>about:debugging</kbd> and press <kbd>Enter</kbd>.
+> 3. On the left-hand vertical menu pane, click on **This Firefox**.
+> 4. Locate the **Temporary Extensions** section block and click the **Load Temporary Add-on...** button.
+> 5. An OS native file explorer window will pop up. Navigate directly into your compiled production folder within your extracted ZIP repository path:
+>    ```text
+>    \browser_exten\Ui\dist\
+>    ```
+> 6. Inside that `Ui/dist/` directory, locate and select the **`manifest.json`** file.
+> 7. Open a brand new browser tab (<kbd>Ctrl</kbd> + <kbd>T</kbd>) to immediately experience your premium, edge-to-edge dashboard layout running free of developer debugging bars.
 
-    Enable the Developer mode toggle switch in the top-right corner.
+---
 
-    Click the Load unpacked button located in the top-left corner.
+<br/>
 
-    Open your extracted workspace folder, navigate to browser_exten/Ui/, and select the newly generated dist directory.
+# 6. License
 
-🦊 Step-by-Step Firefox Installation
-
-    ⚠️ Implementation Warning: Automated command-line injection tools trigger external developer debugging hooks within Gecko architectures, forcing a permanent and visually disruptive "Browser is under remote control" warning banner across your top viewport.
-
-For a completely clean, pristine, and warning-free installation inside Firefox, execute these manual activation steps:
-
-    Open Mozilla Firefox normally from your desktop deployment or taskbar shortcut.
-
-    In the URL address bar at the top, type exactly about:debugging and press Enter.
-
-    On the left-hand vertical menu pane, click on This Firefox.
-
-    Locate the Temporary Extensions section block and click the Load Temporary Add-on... button.
-
-    An OS native file explorer window will pop up. Navigate directly into your compiled production folder within your extracted ZIP repository path:
-    Plaintext
-
-    \browser_exten\Ui\dist\
-
-    Inside that Ui/dist/ directory, locate and select the manifest.json file.
-
-    Open a brand new browser tab (Ctrl + T) to immediately experience your premium, edge-to-edge dashboard layout running free of developer debugging bars.
-
-6. License
-
-This project is licensed under the MIT License — an open-source, highly permissive framework that is completely free to use, modify, and distribute for personal or commercial projects.
+This project is licensed under the **MIT License** — an open-source, highly permissive framework that is completely free to use, modify, and distribute for personal or commercial projects.
