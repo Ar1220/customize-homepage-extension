@@ -180,9 +180,20 @@ Everything executes locally using client compute power, enabling fully determini
 
 <br/>
 
-📸 Screenshots there
+# 6. Screenshot
 
-# 6. License
+<img width="4096" height="2486" alt="452Screenshot 2026-06-07 202742" src="https://github.com/user-attachments/assets/3f0b3522-cc29-4014-b3c9-a6353db30d26" />
+
+<br/>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3f0b3522-cc29-4014-b3c9-a6353db30d26" width="850" alt="Ethereal Dashboard Interface Preview" />
+</div>
+
+<br/>
+
+
+# 7. License
 
 This project is licensed under the **MIT License** — an open-source, highly permissive framework that is completely free to use, modify, and distribute for personal or commercial projects.
 ```
