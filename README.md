@@ -1,86 +1,95 @@
 # Ethereal Dashboard (Customize Homepage Extension)
 
-## 🔥 HEADER & BRANDING
+![React 18](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-5+-3178C6?logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-5+-646CFF?logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3+-06B6D4?logo=tailwindcss&logoColor=white) ![Chrome Extension V3](https://img.shields.io/badge/Chrome_Extension-V3-4285F4?logo=googlechrome&logoColor=white) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-> **A premium, client-rendered homepage engine with offline AI workflows, zero backend dependencies, and privacy-first architecture.**
+### Header & Branding
+A premium, client-rendered homepage engine featuring offline machine learning workflows, zero backend dependencies, and a privacy-first local architecture.
 
-![React 18](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5+-3178C6?logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-5+-646CFF?logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3+-06B6D4?logo=tailwindcss&logoColor=white)
-![Chrome Extension MV3](https://img.shields.io/badge/Chrome_Extension-MV3-4285F4?logo=googlechrome&logoColor=white)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+---
 
-## ✨ OVERVIEW & PHILOSOPHY
+## 1. Overview & Philosophy
+Ethereal Dashboard is an ultra-premium, high-performance, privacy-first browser homepage engine designed to execute entirely at the client browser layer. The architecture operates under three strict operational zero-trust principles:
+- **0 External Server Connections:** All computing overhead is sandboxed locally.
+- **0 Telemetry / Data Tracking:** Complete user privacy with no metrics phone-home code.
+- **0 External API Key Dependencies:** Eliminates reliance on paid or volatile third-party cloud engines.
 
-**Ethereal Dashboard** is an ultra-premium, high-performance, privacy-first browser homepage engine designed to run fully at the browser layer.
+Everything executes locally using client compute power, enabling fully deterministic behavior, ultra-low latency canvas rendering, and absolute user data sovereignty.
 
-- **0 external server connections**
-- **0 telemetry/data tracking**
-- **0 paid external API key dependencies**
+---
 
-Everything executes locally with client compute, enabling deterministic behavior, low latency, and full user data sovereignty.
+## 2. Technical Capabilities & Core Features
 
-## 🚀 KILLER FEATURES (With Emojis & Bold Typography)
+### Spatial Layout & Canvas Engine
+- **Premium Glassmorphic UI:** Features draggable widget orchestration for advanced spatial desktop personalization.
+- **Fluid Animation Physics:** Utilizes Framer Motion-driven interaction mechanics for seamless UI transitions.
+- **GPU-Accelerated Styling:** Implements granular background media filters (blur, contrast, brightness) rendered via hardware-accelerated CSS pipelines to eliminate runtime repaint lag.
 
-### 🌌 **Premium Glassmorphic Canvas**
-- Draggable widget orchestration for spatial personalization.
-- Fluid **Framer Motion**-driven interaction mechanics.
-- Granular background media filters (**blur / contrast / brightness**) rendered with hardware-accelerated CSS pipelines.
+### Client-Side Machine Learning Inference
+- **Local Foreground Isolation:** Implements fully offline AI subject isolation and background-removal workflows.
+- **WASM Neural Network Pipeline:** Executes local WebAssembly neural network inference optimized to remain secure and compliant within strict Chrome Extension Manifest V3 Content Security Policy (CSP) boundaries.
 
-### ⚡ **Client-Side Machine Learning Inference**
-- Fully offline AI foreground-isolation and background-removal workflows.
-- Local **WebAssembly neural network** inference designed to remain compliant with strict extension CSP boundaries.
+### Spotlight Search Terminal
+- **Programmable Slash Commands:** Intercepts and routes custom terminal triggers (such as `/yt`, `/gh`, and `/g`) straight from the UI.
+- **Dynamic Asset Ingestion:** Features a processing string injection pipeline that dynamically renders raw local Base64 shortcut icons on active match detection.
+- **Safe Dispatch Redirection:** Implements secure query-injection handling for clean, controlled search engine dispatches.
 
-### 🐚 **Spotlight Search Terminal**
-- Programmable slash commands such as **`/yt`**, **`/gh`**, and **`/g`**.
-- String interception and routing pipelines with dynamically rendered base64 shortcut icons.
-- Safe query-injection redirect handling for fast, controlled search dispatch.
+### DOM Hijacking Metadata Engine
+- **Tab Layer Overrides:** Houses a local document-title override engine to bypass standard page restrictions.
+- **Canvas-to-Favicon Streaming:** Handles real-time rendering of raw HTML5 canvas Base64 image streams directly into the physical browser tab favicon.
+- **Zero Network Cost:** Executes visual tab identity updates instantly with zero network roundtrips.
 
-### 👁 **DOM Hijacking Metadate Engine**
-- Local document-title override engine.
-- Real-time rendering of raw canvas base64 image streams directly into browser tab favicons.
-- Zero network roundtrips for metadata and visual tab identity updates.
+---
 
-## 📊 PERFORMANCE TELEMETRY BENCHMARKS
+## 3. Performance Telemetry Benchmarks
 
-| Scenario | Observed Memory Profile | Why It Matters |
-|---|---:|---|
-| Baseline overhead (1 active tab) | **~35–40MB RAM** | Lean default residency for daily homepage usage. |
-| Scalability profile (15+ active tabs) | **~38MB per tab (linear)** | Predictable scaling under multi-tab workloads. |
-| Heavy-page comparison (YouTube/Discord) | **300–600MB typical** | Demonstrates major efficiency gains in extension workload design. |
+| Evaluation Scenario | Observed Memory Profile | Engineering Impact |
+| :--- | :--- | :--- |
+| **Baseline Overhead (1 Active Tab)** | ~35–40 MB RAM | Lean, near-zero residency footprint suited for daily homepage usage. |
+| **Scalability Profile (15+ Active Tabs)** | ~38 MB per tab (Linear) | Stable, perfectly predictable scaling under aggressive multi-tab workloads. |
+| **Heavy Industry Comparison** | 300–600 MB typical (YouTube/Discord) | Demonstrates major runtime resource efficiency gains over standard web layouts. |
 
-**Optimization drivers:**
-- Lazy WebAssembly context allocation.
-- Local relative asset paths for efficient resource access.
-- Zero global-store state bloat, keeping runtime memory pressure tightly controlled.
+### Architectural Optimization Drivers:
+- **Lazy WebAssembly Allocation:** Context allocations for neural network engines remain dormant until explicitly invoked by user interaction.
+- **Path-Agnostic Assets:** Local relative asset paths ensure efficient resource access paths across compiled storage modules.
+- **State Tree Isolation:** Zero global-store state bloat ensures runtime memory pressure is tightly controlled with strict re-render boundaries.
 
-## 🛠️ TECHNICAL ARCHITECTURE & DEEP DIVE
+---
 
-- **Component topology:** A clean, top-down state orchestrator manages the component tree with deterministic data flow and controlled re-render boundaries.
-- **Storage Bridge Protocol:** An asynchronous abstraction layer performs automated handshakes with `chrome.storage.local` in production and falls back to immediate `localStorage` during development.
+## 4. Architecture & Data Persistence Details
+- **Component Topology:** A clean, top-down state orchestrator manages the component tree with highly controlled re-render boundaries and clean data flow.
+- **Storage Bridge Protocol:** An asynchronous abstraction layer performs automated handshakes with `chrome.storage.local` in production, falling back seamlessly to immediate `localStorage` during development.
 
-## ⚡ ONE-CLICK AUTOMATED DEPLOYMENT (Windows CLI Guide)
+---
 
-The `install_and_launch.bat` automation pipeline is designed for elevated execution (Run as Administrator) and uses `%~dp0` relative pathing to guarantee correct project-root resolution.
+## 5. Deployment & Installation Guide
 
-### What it does automatically
-- Audits local dependency/runtime prerequisites.
-- Executes:
+### Automated Setup (Chromium-Family Browsers: Chrome, Brave, Edge, Opera)
+The repository contains an automated orchestration pipeline located at `browser_exten/install_and_launch.bat`. The script requires elevated execution privileges ("Run as Administrator") and leverages Windows `%~dp0` relative pathing to guarantee proper project-root resolution across any machine.
 
-```bat
-pnpm install
-pnpm build
+When executed, the script automatically handles the following development pipeline operations:
+1. Audits local system dependency and runtime prerequisites.
+2. Executes clean package resolution and production compilation:
+```shell
+   pnpm install
+   pnpm build
 ```
+3. Natively injects the unpacked extension directory output directly into your active Chromium browser via launch target flags.
 
-- Force-injects the unpacked extension output into active Chromium-family browsers (Chrome, Edge, Brave) via launch target flags.
+### Manual Developer Mode Fallback
+1. Navigate to `chrome://extensions/` in your browser.
+2. Enable the **Developer mode** toggle in the top-right corner.
+3. Click **Load unpacked** in the top-left corner.
+4. Select the compiled `/dist` directory located inside your project folder.
 
-### Manual Developer Mode fallback
-1. Open `chrome://extensions`
-2. Enable **Developer mode**
-3. Select **Load unpacked**
-4. Choose the `/dist` directory
+### Manual Warning-Free Setup (Mozilla Firefox)
+Automated command-line loading in Firefox triggers external developer debugging hooks, which display a permanent "Browser is under remote control" alert bar across the browser layout. For a clean, pristine installation:
+1. Launch Firefox normally.
+2. Enter `about:debugging` into the URL address bar and press Enter.
+3. Click on **This Firefox** on the left-hand navigation pane.
+4. Select the **Load Temporary Add-on...** button.
+5. Navigate into the compiled asset output directory (`browser_exten/Ui/dist/`) and select the `manifest.json` file.
 
-## 📜 LICENSE
+---
 
-**MIT License** — open source and free to use.
+## 6. License
+This project is licensed under the MIT License — open source, permissive, and free to use.
