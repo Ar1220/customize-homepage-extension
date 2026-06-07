@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/Vite-5+-646cff?style=flat-square&logo=vite" alt="Vite" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-3+-38bdf8?style=flat-square&logo=tailwind-css" alt="Tailwind" />
   <img src="https://img.shields.io/badge/Chrome_Extension-V3-4285f4?style=flat-square&logo=google-chrome" alt="Manifest V3" />
+  <img src="https://img.shields.io/badge/Firefox_Extension-Gecko-FF7139?style=flat-square&logo=mozilla-firefox" alt="Firefox Extension" />
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License" />
 </div>
 
@@ -182,3 +183,4 @@ Everything executes locally using client compute power, enabling fully determini
 # 6. License
 
 This project is licensed under the **MIT License** — an open-source, highly permissive framework that is completely free to use, modify, and distribute for personal or commercial projects.
+```
