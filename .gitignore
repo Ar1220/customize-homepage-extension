@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# Local Environment Secrets
+.env
+.env.local
+
+# Operating System Garbage
+.DS_Store
+Thumbs.db
