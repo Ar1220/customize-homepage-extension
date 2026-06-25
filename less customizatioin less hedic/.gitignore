@@ -1,0 +1,19 @@
+# Dependency Tree
+node_modules/
+
+# Production Build Map
+dist/
+build/
+
+# Heavy Assets & Large Media Files
+*.mp4
+*.mkv
+*.mov
+*.zip
+*.rar
+*.tar.gz
+
+# Local System Caches
+.DS_Store
+Thumbs.db
+.env
