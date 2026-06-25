@@ -133,7 +133,7 @@ Everything executes locally using client compute power, enabling fully determini
 > ## 🛠️ Automated Setup (Chromium Browsers: Chrome, Brave, Edge, Opera)
 > The repository contains an automated orchestration pipeline designed to handle system environment setup, dependency resolution, and asset bundling automatically.
 > 
-> 1. Open your extracted project directory and navigate into the root **`browser_exten`** folder.
+> 1. Open your extracted project directory and navigate into the root **`browser-extention`** folder.
 > 2. Locate the file named **`install_and_launch.bat`**.
 > 3. **Right-click** on the script file and select **"Run as Administrator"**.
 > 4. The script will automatically verify dependencies, parse project files, and execute a production compile using the following routines:
