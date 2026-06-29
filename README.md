@@ -180,25 +180,9 @@ Everything executes locally using client compute power, enabling fully determini
 
 <br/>
 
-<a href="https://addons.mozilla.org/en-US/firefox/addon/custom-homepage-ethereal/" 
-target="_blank" rel="noopener noreferrer" class="group relative flex 
-items-center justify-center gap-2 w-full h-12 border border-white/10 
-bg-neutral-900/60 text-gray-50 text-xs font-bold uppercase 
-tracking-widest rounded-lg overflow-hidden transition-all duration-500 
-hover:border-orange-500/50 hover:text-orange-200 before:absolute before:w-12 
-before:h-12 before:content-[''] before:right-1 before:top-1 before:z-0 
-before:bg-orange-700 before:rounded-full before:blur-lg before:duration-500
- after:absolute after:z-0 after:w-20 after:h-20 after:content-[''] 
-after:bg-orange-500 after:right-8 after:top-3 after:rounded-full 
-after:blur-lg after:duration-500 hover:before:right-12 
-hover:before:-bottom-8 hover:after:-right-8 
-hover:before:[box-shadow:_20px_20px_20px_30px_#9a3412] 
-group-hover:before:duration-500 
-group-hover:after:duration-500">
-  <img src="https://cdn.simpleicons.org/firefoxbrowser/white" alt="" class="relative z-10 w-3.5 h-3.5 group-hover:opacity-90 transition-opacity duration-300" />
-  <span class="relative z-10 text-white group-hover:text-orange-200 transition-colors duration-300">Add to Firefox</span>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/custom-homepage-ethereal/" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/amo/v/custom-homepage-ethereal?style=for-the-badge&logo=firefoxbrowser&logoColor=white&label=Firefox%20Add-on&color=FF7139" alt="Get it on Firefox Add-ons" />
 </a>
-
 <br/>
 
 # 6. Screenshot
