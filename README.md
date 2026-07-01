@@ -183,7 +183,9 @@ Everything executes locally using client compute power, enabling fully determini
 # 6. Download
 
 Click there  ➡️     
-<a href="https://addons.mozilla.org/en-US/firefox/addon/custom-homepage-ethereal/" rel="nofollow"><img src="/sienori/Tab-Session-Manager/raw/master/other/promotion/badges/firefox.png" align="left" alt="for Firefox" style="max-width: 100%;"></a>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/custom-homepage-ethereal/">
+  <img src="https://img.shields.io/badge/Firefox_Extension-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Get it for Firefox" height="40">
+</a>
 <br/>
 
 # 7. Screenshot
