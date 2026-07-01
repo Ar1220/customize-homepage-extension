@@ -180,6 +180,7 @@ Everything executes locally using client compute power, enabling fully determini
 
 <br/>
 
+Click there  ⬇️
 <a href="https://addons.mozilla.org/en-US/firefox/addon/custom-homepage-ethereal/" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/amo/v/custom-homepage-ethereal?style=for-the-badge&logo=firefoxbrowser&logoColor=white&label=Firefox%20Add-on&color=FF7139" alt="Get it on Firefox Add-ons" />
 </a>
