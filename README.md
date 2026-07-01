@@ -192,7 +192,9 @@ Click there  ➡️
 
 <br/>
 
-<a href="https://addons.mozilla.org/en-US/firefox/addon/custom-homepage-ethereal/" rel="nofollow"><img src="/sienori/Tab-Session-Manager/raw/master/other/promotion/badges/firefox.png" align="left" alt="for Firefox" style="max-width: 100%;"></a>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3f0b3522-cc29-4014-b3c9-a6353db30d26" width="850" alt="Ethereal Dashboard Interface Preview" />
+</div>
 
 <br/>
 
