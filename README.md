@@ -184,7 +184,7 @@ Everything executes locally using client compute power, enabling fully determini
 
 Click there  ➡️     
 <a href="https://addons.mozilla.org/en-US/firefox/addon/custom-homepage-ethereal/">
-  <img src="https://img.shields.io/badge/Firefox_Extension-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Get it for Firefox" height="40">
+  <img src="https://raw.githubusercontent.com/sienori/Tab-Session-Manager/master/other/promotion/badges/firefox.png" alt="Available in the Firefox Browser Add-on Store" width="170" style="max-width: 100%;">
 </a>
 <br/>
 
